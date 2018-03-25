@@ -25,7 +25,7 @@ namespace EfCoreBlogContext
 
             if (Debugger.IsAttached)
             {
-                Console.WriteLine("Done.");
+                Console.WriteLine("Done. Press any key to exit!");
                 Console.ReadKey();
             }
         }
